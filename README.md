@@ -11,7 +11,7 @@ The reordering algorithms implemented are:
 Timing and the number of non-zeros in the factored matrix is reported.
 
 # Usage: 
- MD.exe -filemat=<name> -filerhs=<name> -reordering=<0/1/2/3/4> 
+ MD.exe -filemat=CoeffMatrix.dat -filerhs=Rhs.dat -reordering=<0/1/2/3/4> 
  Example data files are provided in the sample data.
  
  -filemat: name of the binary file containing coeeficient matrix in 
